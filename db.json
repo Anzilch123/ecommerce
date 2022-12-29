@@ -1,0 +1,48 @@
+{
+  "posts": [
+    {
+      "description": "The main function of a CCTV camera is to capture light and convert it into a video signal",
+      "id": "1",
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/31Nk80-hUUL.jpg",
+      "price":2000,
+      "title":"Cp Securityplus camera"
+    },
+    {
+      "description": "Pro camera system: 48MP Main, 12MP Ultrawide, and 12MP 2x Telephoto with Portrait mode, Depth Control.",
+      "id": "2",
+      "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/610pghkO81L._SX679_.jpg",
+      "price":139000,
+      "title":"Iphone 14pro"
+    },
+    {
+    "description": "Wearing a Rolex watch enables entry into a world of unlimited possibilities.",
+    "id": "3",
+    "image": "https://i.pinimg.com/originals/57/e4/fc/57e4fccd42dc8414992ce67576d998ac.jpg",
+    "price":7000,
+    "title":"Rolex Watches"
+  },
+  {
+    "description": "Most men today still use a wallet to carry their cash, cards and other important IDs.",
+    "id": "4",
+    "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81PZsfFwsTL._SY879_.jpg",
+    "price":600,
+    "title":" Men Wallet"
+  },
+  {
+    "description": "A style of jeans created for the female figure that are usually constructed so that the thighs are cut closer to the body when compared to mens jeans.",
+    "id": "5",
+    "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71+upfgmTeL._UX569_.jpg",
+    "price":800,
+    "title":"Jeans"
+  },
+  {
+    "description": "Martucci backpack is a sleek, light bag with a young-at-heart design that's perfect for school or daily travel.",
+    "id": "6",
+    "image": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71i3dEmHwqL._SX679_.jpg",
+    "price":650,
+    "title":"Matucci"
+  }
+ 
+]
+
+}

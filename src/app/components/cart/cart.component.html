@@ -1,0 +1,56 @@
+<ng-container *ngIf="products.length!==0">
+    <div class="container"  >
+        <div class="card-table">
+
+            <div class="card-product">
+          <table class="table table-bordered">
+         <thead>
+            <tr>
+                <th>SL.No</th>
+                <th>Product</th>
+                <th>Product Image</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                <th>Delete</th>
+
+            </tr>
+         </thead>
+         <tbody *ngFor="let item of products;let i =index">
+            <tr>
+                <td>{{i+1}}</td>
+                <td>{{item.title}}</td>
+                <td><img style="width: 120px;" src="{{item.image}}" alt=""></td>
+                <td>{{item.description}}</td>
+                <td>{{item.price}}</td>
+                <td>{{item.quantity}}</td>
+                <td>{{item.total}}</td>
+                <td><button class="btn btn-danger" (click)="delete(item)"><li class="fas fa-trash"></li></button></td>
+            </tr>
+            <tr>
+           
+            </tr>
+         </tbody>
+         <td colspan="4"> </td>
+         <td><button (click)="emptycart()"class="btn btn-danger">Remove</button></td>
+         <td><button  routerLink="/products" class="btn btn-success">Shopmore</button></td>
+         <td><button  routerLink="/products" class="btn btn-warning">Checkout</button></td>
+         <td><strong>Total:{{total| currency:'INR':'symbol':'3.0'}}</strong></td>
+          </table>
+          
+            </div>
+        </div>
+    </div>
+</ng-container>
+
+           <!-- empty  cart -->
+
+
+<ng-container *ngIf="products.length==0">
+    <div class="center"><br>
+        <h4>Your Cart is Empty</h4>
+        <h6>Ad item to it</h6>
+        <button routerLink="/products" class="btn btn-dark">Shop Now</button>
+    </div>
+</ng-container>
